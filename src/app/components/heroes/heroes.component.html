@@ -1,0 +1,35 @@
+<h1>Héroes</h1>
+<hr>
+<div class="row animated fadeIn fast">
+  <div class="col-md-12 text-right">
+    <button  [routerLink]="[ '/heroe', '1' ]"
+    class="btn btn-outline-primary">
+      Nuevo heroe
+    </button>    
+  </div>
+</div>
+<br>
+<div class="row animated fadeIn fast">
+  <div class="col-md-12">
+    <div class="table-responsive">
+        <table class="table table-hover">
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Nombre</th>
+                <th scope="col">Casa</th>
+                <th scope="col">Opciones</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="table-active">
+                <th scope="row">Active</th>
+                <td>Column content</td>
+                <td>Column content</td>
+                <td>Column content</td>
+              </tr>              
+            </tbody>
+          </table>
+    </div>
+  </div>
+</div>
